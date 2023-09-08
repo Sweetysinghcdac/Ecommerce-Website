@@ -5,6 +5,33 @@
       "password": "vyg",
       "email": "amrita@gmail.com",
       "id": 1
+    },
+    {
+      "name": "",
+      "password": "",
+      "email": "",
+      "id": 2
+    },
+    {
+      "name": "amrit",
+      "password": "abc123",
+      "email": "amrita@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "END",
+      "password": "axc",
+      "email": "cccxdc",
+      "id": 4
+    },
+    {
+      "name": "hfuyghjhgy",
+      "password": "huy77uhhuy",
+      "email": "Sweetysinghrajpu3@gmail.com",
+      "id": 5
     }
+  ],
+  "product":[
+    
   ]
 }

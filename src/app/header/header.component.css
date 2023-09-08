@@ -40,5 +40,9 @@ nav{
     color: blueviolet;
     border: 1px solid blueviolet;
     height: 39px;
-    
+}
+
+h1 a{
+    color: blueviolet;
+    text-decoration: none;
 }
