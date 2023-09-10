@@ -31,7 +31,33 @@
       "id": 5
     }
   ],
-  "product":[
-    
+  "products": [
+    {
+      "name": "Smart Watch",
+      "price": "50000",
+      "color": "Red",
+      "catagory": "watch",
+      "description": "digital watch",
+      "image": "https://media.istockphoto.com/id/1380063784/photo/smart-watch-close-up-on-a-white-background-3d-render.jpg?s=1024x1024&w=is&k=20&c=FSkfozq49ipd7nUZFCwgL0dcENTJKVPCJP8LFWY6GIw=",
+      "id": 3
+    },
+    {
+      "name": "Laptop",
+      "price": "56,000",
+      "color": "Black",
+      "catagory": "laptop",
+      "description": " This is a gaming laptop",
+      "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1468&q=80",
+      "id": 4
+    },
+    {
+      "name": "samsung m 40a",
+      "price": "250000",
+      "color": "White",
+      "catagory": "mobile",
+      "description": "This is a new model of samung",
+      "image": "https://media.istockphoto.com/id/175496006/photo/stack-of-mobile-phones-and-tablets-on-a-white-background.jpg?s=1024x1024&w=is&k=20&c=l2FlDUZ9owaoEUtwfwBe_NZcGP5z81FdkKWmN5onK4I=",
+      "id": 5
+    }
   ]
 }
