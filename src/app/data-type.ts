@@ -11,7 +11,7 @@ export interface login{
 export interface product{
     name: string,
     price: number,
-    catagory:string,
+    category:string,
     color: string,
     description: string,
     image:string,
