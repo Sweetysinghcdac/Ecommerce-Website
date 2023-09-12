@@ -67,6 +67,33 @@
       "description": "",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1527&q=80",
       "id": 4
+    },
+    {
+      "name": "iphone",
+      "price": "1,00,000",
+      "color": "black",
+      "catagory": "mobile",
+      "description": "Latest iphone",
+      "image": "https://images.unsplash.com/photo-1560699980-9dee78d1e874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1227&q=80\"",
+      "id": 5
+    },
+    {
+      "name": "Tablet",
+      "price": "1,50,000",
+      "color": "black",
+      "catagory": "tab",
+      "description": "based on new technology",
+      "image": "https://images.unsplash.com/photo-1623126908029-58cb08a2b272?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "id": 6
+    },
+    {
+      "name": "Bluetooth Headset",
+      "price": "4000",
+      "color": "black",
+      "catagory": "Bluetooth",
+      "description": "latest headset",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "id": 7
     }
   ]
 }

@@ -14,6 +14,7 @@
         <p>{{item.description}}</p>
       </div>
     </div>
+  
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
@@ -29,19 +30,18 @@
 <div class="product-list-wrapper">
   <h1>Trendy Products</h1>
   <div class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-3" *ngFor="let item of trendyProducts">
       <div class="product-item">
         <img
-          src="https://images.unsplash.com/photo-1560699980-9dee78d1e874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1227&q=80"
+          src="{{item.image}}"
           alt="">
-        <!-- </div> -->
         <div class="product-details">
-          <h6 class="name-head">New Appple mobile</h6>
+          <h6 class="name-head">{{item.name}}</h6>
           <div class="product-price">
-            <h6>Price: 1,00,000</h6>
+            <h6>Price: {{item.price}}</h6>
           </div>
           <div class="product-color">
-            <h6>color: Blue</h6>
+            <h6>color: {{item.color}}</h6>
           </div>
         </div>
         <div class="product-footer">
@@ -50,130 +50,9 @@
         </div>
       </div>
     </div>
-    <!-- Second item -->
-    <div class="col-sm-3">
-      <div class="product-item">
-        <img
-          src="https://images.unsplash.com/photo-1560699980-9dee78d1e874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1227&q=80"
-          alt="">
-        <div class="product-details">
-          <h6 class="name-head">New Appple mobile</h6>
-          <div class="product-price">
-            <h6>Price: 1,00,000</h6>
-          </div>
-          <div class="product-color">
-            <h6>color: Blue</h6>
-          </div>
-        </div>
-        <div class="product-footer">
-          <a href="">View Details </a>
-          <a href="">Add to Cart </a>
-        </div>
-      </div>
-    </div>
-    <!-- Third Item  -->
-    <div class="col-sm-3">
-      <div class="product-item">
-        <img
-          src="https://images.unsplash.com/photo-1560699980-9dee78d1e874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1227&q=80"
-          alt="">
 
-        <div class="product-details">
-          <h6 class="name-head">New Appple mobile</h6>
-          <div class="product-price">
-            <h6>Price: 1,00,000</h6>
-          </div>
-          <div class="product-color">
-            <h6>color: Blue</h6>
-          </div>
-        </div>
-        <div class="product-footer">
-          <a href="">View Details </a>
-          <a href="">Add to Cart </a>
-        </div>
-      </div>
-    </div>
-    <!-- Fourth Item  -->
-    <div class="col-sm-3">
-      <div class="product-item">
-        <img
-          src="https://images.unsplash.com/photo-1560699980-9dee78d1e874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1227&q=80"
-          alt="">
 
-        <div class="product-details">
-          <h6 class="name-head">New Appple mobile</h6>
-          <div class="product-price">
-            <h6>Price: 1,00,000</h6>
-          </div>
-          <div class="product-color">
-            <h6>color: Blue</h6>
-          </div>
-        </div>
-        <div class="product-footer">
-          <a href="">View Details </a>
-          <a href="">Add to Cart </a>
-        </div>
-      </div>
-    </div>
-    <div class="col-sm-3">
-      <div class="product-item">
-        <img src="https://images.unsplash.com/photo-1560699980-9dee78d1e874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1227&q=80" alt="">
-      <!-- </div> -->
-      <div class="product-details">
-        <h6 class="name-head">New Appple mobile</h6>
-        <div class="product-price">
-          <h6>Price: 1,00,000</h6>
-        </div>
-        <div class="product-color">
-          <h6>color: Blue</h6>
-        </div>
-      </div>
-      <div class="product-footer">
-        <a href="">View Details </a>
-        <a href="">Add to Cart </a>
-      </div>
-    </div>
-  </div>
 
-  <div class="col-sm-3">
-    <div class="product-item">
-      <img src="https://images.unsplash.com/photo-1560699980-9dee78d1e874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1227&q=80" alt="">
-    <!-- </div> -->
-    <div class="product-details">
-      <h6 class="name-head">New Appple mobile</h6>
-      <div class="product-price">
-        <h6>Price: 1,00,000</h6>
-      </div>
-      <div class="product-color">
-        <h6>color: Blue</h6>
-      </div>
-    </div>
-    <div class="product-footer">
-      <a href="">View Details </a>
-      <a href="">Add to Cart </a>
-    </div>
-  </div>
-</div>
-
-<div class="col-sm-3">
-  <div class="product-item">
-    <img src="https://images.unsplash.com/photo-1560699980-9dee78d1e874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1227&q=80" alt="">
-  <!-- </div> -->
-  <div class="product-details">
-    <h6 class="name-head">New Appple mobile</h6>
-    <div class="product-price">
-      <h6>Price: 1,00,000</h6>
-    </div>
-    <div class="product-color">
-      <h6>color: Blue</h6>
-    </div>
-  </div>
-  <div class="product-footer">
-    <a href="">View Details </a>
-    <a href="">Add to Cart </a>
-  </div>
-</div>
-</div>
 
 
   </div>
