@@ -53,8 +53,13 @@ searchProduct(query:KeyboardEvent){
 hideSearch(){
 this.searchResult=undefined;
 }
+redirectToDetails(id:number){
+  this.route.navigate(['/details/'+id])
+}
 submitSearch(val:string){
-
+  console.warn(val);
+  
 this.route.navigate([`search/${val}`])
 }
+
 }

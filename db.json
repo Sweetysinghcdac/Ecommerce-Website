@@ -36,7 +36,7 @@
       "name": "Smart Watch",
       "price": "50000",
       "color": "Red",
-      "catagory": "watch",
+      "category": "watch",
       "description": "digital watch",
       "image": "https://media.istockphoto.com/id/1380063784/photo/smart-watch-close-up-on-a-white-background-3d-render.jpg?s=1024x1024&w=is&k=20&c=FSkfozq49ipd7nUZFCwgL0dcENTJKVPCJP8LFWY6GIw=",
       "id": 1
@@ -45,7 +45,7 @@
       "name": "Laptop",
       "price": "56,000",
       "color": "Black",
-      "catagory": "laptop",
+      "category": "laptop",
       "description": " This is a gaming laptop",
       "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1468&q=80",
       "id": 2
@@ -54,7 +54,7 @@
       "name": "samsung m 40a",
       "price": "250000",
       "color": "White",
-      "catagory": "mobile",
+      "category": "mobile",
       "description": "This is a new model of samung",
       "image": "https://media.istockphoto.com/id/175496006/photo/stack-of-mobile-phones-and-tablets-on-a-white-background.jpg?s=1024x1024&w=is&k=20&c=l2FlDUZ9owaoEUtwfwBe_NZcGP5z81FdkKWmN5onK4I=",
       "id": 3
@@ -63,15 +63,15 @@
       "name": "samsung m 40",
       "price": "250000",
       "color": "black",
-      "catagory": "mobile",
-      "description": "",
+      "category": "mobile",
+      "description": "based on new technology",
       "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1527&q=80",
       "id": 4
     },
     {
       "name": "iphone",
       "price": "1,00,000",
-      "color": "black",
+      "color": "blue",
       "catagory": "mobile",
       "description": "Latest iphone",
       "image": "https://images.unsplash.com/photo-1560699980-9dee78d1e874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1227&q=80\"",
@@ -81,7 +81,7 @@
       "name": "Tablet",
       "price": "1,50,000",
       "color": "black",
-      "catagory": "tab",
+      "category": "tab",
       "description": "based on new technology",
       "image": "https://images.unsplash.com/photo-1623126908029-58cb08a2b272?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "id": 6
@@ -90,10 +90,19 @@
       "name": "Bluetooth Headset",
       "price": "4000",
       "color": "black",
-      "catagory": "Bluetooth",
+      "category": "Bluetooth",
       "description": "latest headset",
       "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "id": 7
+    },
+    {
+      "name": "nuy",
+      "price": "4000",
+      "color": "White",
+      "category": "This is not visible",
+      "description": "edrftyguh",
+      "image": "https://images.unsplash.com/photo-1623126908029-58cb08a2b272?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "id": 8
     }
   ]
 }

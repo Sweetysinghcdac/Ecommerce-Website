@@ -8,13 +8,15 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active" *ngFor="let item of popularProducts">
-      <img class="product-header-img" src="{{item.image}}" alt="...">
+      <a routerLink="/details/{{item.id}}">
+        <img class="product-header-img" src="{{item.image}}" alt="...">
+      </a>
       <div class="carousel-caption d-none d-md-block">
         <h5>{{item.name}}</h5>
         <p>{{item.description}}</p>
       </div>
     </div>
-  
+
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
@@ -32,9 +34,7 @@
   <div class="row">
     <div class="col-sm-3" *ngFor="let item of trendyProducts">
       <div class="product-item">
-        <img
-          src="{{item.image}}"
-          alt="">
+        <img src="{{item.image}}" alt="">
         <div class="product-details">
           <h6 class="name-head">{{item.name}}</h6>
           <div class="product-price">
@@ -45,7 +45,8 @@
           </div>
         </div>
         <div class="product-footer">
-          <a href="">View Details </a>
+          <a routerLink="/details/{{item.id}}">
+            View Details </a>
           <a href="">Add to Cart </a>
         </div>
       </div>
