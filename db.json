@@ -94,15 +94,6 @@
       "description": "latest headset",
       "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
       "id": 7
-    },
-    {
-      "name": "nuy",
-      "price": "4000",
-      "color": "White",
-      "category": "This is not visible",
-      "description": "edrftyguh",
-      "image": "https://images.unsplash.com/photo-1623126908029-58cb08a2b272?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "id": 8
     }
   ],
   "users": [
@@ -111,6 +102,24 @@
       "email": "amrita@gmail.com",
       "password": "adfgh",
       "id": 1
+    },
+    {
+      "name": "peter",
+      "email": "peter@user.com",
+      "password": "abc123",
+      "id": 2
+    },
+    {
+      "name": "tonny",
+      "email": "tonny@uer.com",
+      "password": "qwerty",
+      "id": 3
+    },
+    {
+      "name": "END",
+      "email": "amrita@gmail.com",
+      "password": "ddcedc",
+      "id": 4
     }
   ]
 }
